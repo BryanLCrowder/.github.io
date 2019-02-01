@@ -79,9 +79,7 @@ body {
 }
 
 
-p {
-  margin-bottom: 15px;
-}
+
 
 #info {
   display: table;
@@ -137,7 +135,125 @@ a {text-decoration:  none;
 }
 
 
+.centersection {
+    background-color: #f9f9f9;
+    height: 9%;
+    width: 100%        
+}
 
+.centerparagraph {
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    color: black;
+
+}
+
+@media screen and (min-width: 601px) {
+  div.centerparagraph {
+    font-size: 60px;
+    position: relative;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  div.centerparagraph {
+    font-size: 40px;
+      position: relative;
+  }
+}
+
+.hero-image1 {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("image.jpeg");
+
+  /* Set a specific height */
+  height: 100%;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+
+.hero-image2 {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("workbackground.jpg");
+
+  /* Set a specific height */
+  height: 100%;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+
+.hero-image3 {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("us.jpg");
+
+  /* Set a specific height */
+  height: 100%;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.aboutmetext {
+    color: whitesmoke;
+    padding-top: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: center;
+    
+}
+
+@media screen and (min-width: 601px) {
+  div.aboutmetext {
+    font-size: 60px;
+    position: relative;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  div.aboutmetext {
+    font-size: 40px;
+      position: relative;
+  }
+}
+
+
+.aboutmetext2 {
+    color: whitesmoke;
+    padding-top: 2%;
+    padding-left: 10%;
+    padding-right: 10%;
+        
+    text-align: left;
+    
+}
+
+@media screen and (min-width: 601px) {
+  div.aboutmetext2 {
+    font-size: 40px;
+    position: relative;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  div.aboutmetext2 {
+    font-size: 28px;
+      position: relative;
+  }
+}
 
 
 
