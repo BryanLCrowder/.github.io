@@ -230,7 +230,7 @@ a {text-decoration:  none;
 
 @media screen and (max-width: 600px) {
   div.aboutmetext2 {
-    font-size: 27px;
+    font-size: 25px;
       position: relative;
   }
 }
