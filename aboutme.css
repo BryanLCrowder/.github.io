@@ -151,7 +151,7 @@ a {text-decoration:  none;
 
 .hero-image {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("Code_for_about_me.jpg");
-  height: 108%;
+  height: 110%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -159,7 +159,7 @@ a {text-decoration:  none;
 }
 .hero-image1 {
   background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("Image.jpeg") ;
-  height: 108%;
+  height: 110%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -169,7 +169,7 @@ a {text-decoration:  none;
 
 .hero-image2 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("workbackground.jpg");
-  height: 108%;
+  height: 110%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -180,7 +180,7 @@ a {text-decoration:  none;
 .hero-image3 {
 
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("us.jpg");
-  height: 108%;
+  height: 110%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -230,7 +230,7 @@ a {text-decoration:  none;
 
 @media screen and (max-width: 600px) {
   div.aboutmetext2 {
-    font-size: 25px;
+    font-size: 22px;
       position: relative;
   }
 }
